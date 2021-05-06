@@ -1,0 +1,38 @@
+{
+  "name": "jrcs-manage",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "ant-design-vue": "^2.0.0-beta.10",
+    "axios": "^0.20.0",
+    "core-js": "^3.6.5",
+    "js-cookie": "^2.2.1",
+    "vue": "^3.0.4",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^2.2.6",
+    "@types/node": "^15.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.4",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "less": "^4.1.1",
+    "less-loader": "^8.1.1",
+    "prettier": "^1.19.1",
+    "stylelint": "^13.13.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "typescript": "~3.9.3",
+    "vite": "^1.0.0-rc.13",
+    "vite-plugin-compression": "^0.2.4",
+    "vite-plugin-style-import": "^0.10.0"
+  }
+}

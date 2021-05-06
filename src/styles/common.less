@@ -1,0 +1,43 @@
+/*
+ * @Author: Jiang Junjie
+ * @Date: 2021-04-22 11:44:12
+ * @Description: 公用样式
+ * @LastEditors: 罗恒
+ * @LastEditTime: 2021-04-26 13:57:56
+ * @FilePath: \csxt-ui-system\src\styles\common.less
+ */
+ ul,li{ padding:0;margin:0;list-style:none}
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+// 超出省略号显示
+.ellipsis{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+// 超出两行省略号
+.ellipsis-two {
+  display: -webkit-box;
+  -webkit-line-clamp:2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}

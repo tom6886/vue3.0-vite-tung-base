@@ -1,0 +1,37 @@
+/*
+ * @Author: Jiang Junjie
+ * @Date: 2021-04-19 15:06:58
+ * @Description: 项目样式
+ * @LastEditors: Jiang Junjie
+ * @LastEditTime: 2021-04-23 14:03:11
+ * @FilePath: /csxt-ui-system/src/styles/main.less
+ */
+
+@import "ant-design-vue/dist/antd.less";
+@import "./customTheme.less";
+@import "./common.less";
+
+.ant-form-item {
+  margin-bottom: 10px;
+}
+
+.ant-table-header {
+  overflow: hidden !important;
+}
+::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 10px; /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+}
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgba(80, 80, 80, 0.2);
+  background: #aaa;
+}
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background: #ededed;
+}
